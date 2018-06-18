@@ -26,7 +26,7 @@ public class Scanner3DApp extends JFrame {
 
     Scanner3DApp() throws IOException, InterruptedException {
         super("3DScanner");
-        scanner = new Scanner3D("COM4", 19200, 0, 0);
+        scanner = new Scanner3D("COM3", 19200, 0, 0);
         setContentPane(mainWin);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(550, 300);
